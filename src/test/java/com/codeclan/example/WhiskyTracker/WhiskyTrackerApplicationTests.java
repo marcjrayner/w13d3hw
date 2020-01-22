@@ -40,6 +40,32 @@ public class WhiskyTrackerApplicationTests {
 		assertEquals("Glendronach", found.get(0).getName());
 	}
 
+	@Test
+	public void canFindWhiskyThatHasDistilleryAndYear() {
+		List<Whisky> found = whiskyRepository.findWhiskyThatHasDistilleryAndYear("Glendronach", 2018);
+		assertEquals("The Glendronach Revival", found.get(0).getName());
+	}
+
+	@Test
+	public void findWhiskyByDistilleryIdAndYear() {
+		List<Whisky> found = whiskyRepository.findWhiskyByDistilleryIdAndYear(1L, 2018);
+		assertEquals("The Glendronach Revival", found.get(0).getName());
+	}
+
+	@Test
+	public void findWhiskyByDistilleryRegion() {
+		List <Whisky> found = whiskyRepository.findWhiskyByDistilleryRegion("Speyside");
+		assertEquals("The Macallan Anniversary Malt", found.get(0).getName());
+	}
+
+	@Test
+	public void findDistilleryByWhiskiesAge() {
+		List<Distillery> found = distilleryRepository.findDistilleryByWhiskiesAge(25);
+		assertEquals("Macallan", found.get(0).getName());
+	}
+
+
+
 
 
 }

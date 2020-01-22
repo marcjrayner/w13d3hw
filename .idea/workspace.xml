@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7cb760-8b56-42a1-9000-2ec1db389d1b" name="Default Changelist" comment="" />
+    <list default="true" id="5e7cb760-8b56-42a1-9000-2ec1db389d1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/DistilleryRepository/DistilleryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/DistilleryRepository/DistilleryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codeclan/example/WhiskyTracker/WhiskyTrackerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codeclan/example/WhiskyTracker/WhiskyTrackerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WkuI6OR4M2OqrQCtuVLEvxOIzS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -27,8 +35,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiskyTrackerApplicationTests.findDistilleryByRegion">
-    <configuration name="WhiskyTrackerApplicationTests.findDistilleryByRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WhiskyTrackerApplicationTests">
+    <configuration name="WhiskyTrackerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WhiskyTracker" />
       <extension name="coverage">
         <pattern>
@@ -38,13 +46,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
       <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
-      <option name="METHOD_NAME" value="findDistilleryByRegion" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhiskyTrackerApplicationTests.canFindWhiskyThatHasDistilleryAndYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WhiskyTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeclan.example.WhiskyTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
+      <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
+      <option name="METHOD_NAME" value="canFindWhiskyThatHasDistilleryAndYear" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhiskyTrackerApplicationTests.findWhiskyByYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhiskyTrackerApplicationTests.findDistilleryByWhiskyAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WhiskyTracker" />
       <extension name="coverage">
         <pattern>
@@ -54,7 +77,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
       <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
-      <option name="METHOD_NAME" value="findWhiskyByYear" />
+      <option name="METHOD_NAME" value="findDistilleryByWhiskyAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhiskyTrackerApplicationTests.findWhiskyByDistilleryIdAndYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WhiskyTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeclan.example.WhiskyTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
+      <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
+      <option name="METHOD_NAME" value="findWhiskyByDistilleryIdAndYear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhiskyTrackerApplicationTests.findWhiskyByDistilleryRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WhiskyTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeclan.example.WhiskyTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
+      <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
+      <option name="METHOD_NAME" value="findWhiskyByDistilleryRegion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.findDistilleryByRegion" />
-        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.findWhiskyByYear" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.findDistilleryByWhiskyAge" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.findWhiskyByDistilleryRegion" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.findWhiskyByDistilleryIdAndYear" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindWhiskyThatHasDistilleryAndYear" />
       </list>
     </recent_temporary>
   </component>
@@ -79,5 +137,16 @@
       <updated>1579705830714</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
